@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 450px;;
+}
+
+.form-group {
+  margin-bottom: 1.4rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-group > label {
+   display: block;
+   font-weight: 700;
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
